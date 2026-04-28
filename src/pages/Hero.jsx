@@ -11,7 +11,7 @@ const HeroSection = () => {
         navigate("/properties");
     }
   return (
-    <header className="w-full mt-16 min-h-screen bg-white flex items-center justify-center px-4 sm:px-6 md:px-16 overflow-hidden relative">
+    <header className="w-full mt-1 min-h-screen bg-white flex items-center justify-center px-4 sm:px-6 md:px-16 overflow-hidden relative">
 
       {/* SEO: hidden semantic heading for crawler clarity */}
       <h1 className="sr-only">
