@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { NavLink, Link } from "react-router-dom";
-
+import logo from "../assets/logo.png";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -41,8 +41,8 @@ const Navbar = () => {
             className="text-xl md:text-2xl font-semibold text-gray-900"
           >
             <Link to="/">
-            SK <span className="font-light text-gray-500">Property Vision</span>
-            </Link>
+           <img src={logo} alt="Logo" className="h-12 w-12 rounded-full" />
+           </Link>
           </motion.div>
 
           {/* DESKTOP NAV */}
